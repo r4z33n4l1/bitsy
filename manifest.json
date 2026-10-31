@@ -1,0 +1,74 @@
+{
+  "project": "r4z33n4l1/bitsy",
+  "snapshot_date": "2026-10-31",
+  "repository": "r4z33n4l1/bitsy",
+  "backups": [
+    {
+      "ref": "refs/tags/local-backup/2026-10-31/working-24e5f1a7d83e-7fe1735a",
+      "sha": "7fe1735a20c6e2b331ec02b8f6e2a664e34ce7c9",
+      "kind": "snapshot",
+      "snapshot_id": "24e5f1a7d83e",
+      "source_ref": null,
+      "stash_index": null,
+      "verified": true
+    },
+    {
+      "ref": "refs/tags/local-backup/2026-10-31/staged-8fa059e4b171-575472bc",
+      "sha": "575472bca1cf690356baa3ed896a6169f1508a52",
+      "kind": "snapshot",
+      "snapshot_id": "8fa059e4b171",
+      "source_ref": null,
+      "stash_index": null,
+      "verified": true
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "24e5f1a7d83e",
+      "kind": "working",
+      "source_sha": "85b24e17bab0e2a7ae064bd761f756d1e6d37912",
+      "commit": "7fe1735a20c6e2b331ec02b8f6e2a664e34ce7c9",
+      "included_files": 619,
+      "bytes": 62530671,
+      "excluded": [
+        {
+          "path": ".DS_Store",
+          "reason": "machine state or credential configuration"
+        }
+      ],
+      "secret_findings": [],
+      "saved_ref": "refs/tags/local-backup/2026-10-31/working-24e5f1a7d83e-7fe1735a"
+    },
+    {
+      "id": "8fa059e4b171",
+      "kind": "staged",
+      "source_sha": "0b10d20c2a1ec37bc5e2ca1c8ac632db5d60b9b5",
+      "commit": "575472bca1cf690356baa3ed896a6169f1508a52",
+      "included_files": 619,
+      "bytes": 62520073,
+      "excluded": [],
+      "secret_findings": [],
+      "saved_ref": "refs/tags/local-backup/2026-10-31/staged-8fa059e4b171-575472bc"
+    }
+  ],
+  "local_checkouts": [
+    {
+      "branch": "main",
+      "source_commit": "85b24e17bab0e2a7ae064bd761f756d1e6d37912",
+      "source_branch_state": "identical",
+      "file_status_verified": true,
+      "changes": [
+        {
+          "code": "AM",
+          "path": "editor/travelling-tom.bitsy"
+        },
+        {
+          "code": "??",
+          "path": ".DS_Store"
+        }
+      ]
+    }
+  ],
+  "history_withheld": [],
+  "history_bundle": null
+}
