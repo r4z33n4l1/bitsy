@@ -1,0 +1,1962 @@
+Travelling Tom
+
+# BITSY VERSION 8.12
+
+! VER_MAJ 8
+! VER_MIN 12
+! ROOM_FORMAT 1
+! DLG_COMPAT 0
+! TXT_MODE 0
+
+PAL 0
+60,60,80
+120,120,140
+180,180,200
+NAME home
+
+PAL 1
+180,200,220
+255,255,255
+120,160,200
+NAME japan
+
+PAL 2
+180,140,90
+255,220,170
+140,90,40
+NAME morocco
+
+PAL 3
+80,140,100
+140,200,160
+40,90,60
+NAME peru
+
+ROOM 0
+w,w,w,w,w,w,w,door,w,w,w,w,w,w,w,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+door,f,f,f,f,f,f,f,f,f,f,f,f,f,f,door
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+NAME Home 000
+PAL 0
+WAL w,t,m,r
+EXT 7,0 1 7,14 FX fade_w
+EXT 0,7 5 14,7 FX fade_w
+EXT 15,7 9 1,7 FX fade_w
+
+ROOM home_001
+w,w,w,w,w,w,w,door,w,w,w,w,w,w,w,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+door,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+NAME Home 001
+PAL 0
+WAL w,t,m,r
+EXT 7,0 1 7,14 FX fade_w
+EXT 0,7 5 14,7 FX fade_w
+
+ROOM home_010
+w,w,w,w,w,w,w,door,w,w,w,w,w,w,w,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,door
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+NAME Home 010
+PAL 0
+WAL w,t,m,r
+EXT 7,0 1 7,14 FX fade_w
+EXT 15,7 9 1,7 FX fade_w
+
+ROOM home_011
+w,w,w,w,w,w,w,door,w,w,w,w,w,w,w,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+NAME Home 011
+PAL 0
+WAL w,t,m,r
+EXT 7,0 1 7,14 FX fade_w
+
+ROOM home_100
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+door,f,f,f,f,f,f,f,f,f,f,f,f,f,f,door
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+NAME Home 100
+PAL 0
+WAL w,t,m,r
+EXT 0,7 5 14,7 FX fade_w
+EXT 15,7 9 1,7 FX fade_w
+
+ROOM home_101
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+door,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+NAME Home 101
+PAL 0
+WAL w,t,m,r
+EXT 0,7 5 14,7 FX fade_w
+
+ROOM home_110
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,door
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+NAME Home 110
+PAL 0
+WAL w,t,m,r
+EXT 15,7 9 1,7 FX fade_w
+
+ROOM home_111
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+NAME Home 111
+PAL 0
+WAL w,t,m,r
+
+ROOM 1
+t,t,t,t,t,t,t,door,t,t,t,t,t,t,t,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t
+NAME Japan - Entrance
+PAL 1
+WAL w,t,m,r
+EXT 7,0 2 7,14 FX fade_w
+
+ROOM 2
+t,t,t,t,t,t,t,door,t,t,t,t,t,t,t,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,s,s,s,s,s,t
+t,w,w,w,w,w,s,s,s,s,s,s,s,s,s,door
+t,w,w,w,w,w,s,s,s,s,s,s,s,s,s,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t
+NAME Japan - Bamboo Grove
+PAL 1
+WAL w,t,m,r
+EXT 7,0 3 7,14 FX fade_w
+EXT 15,7 20 1,7 FX fade_w
+
+ROOM 20
+m,m,m,m,m,m,m,door,m,m,m,m,m,m,m,m
+t,s,s,s,s,s,s,s,s,s,s,s,s,s,s,m
+t,s,s,s,s,s,s,s,s,s,s,s,s,s,s,m
+t,s,s,s,s,s,s,s,s,s,s,s,s,s,s,m
+t,s,s,s,s,s,s,s,s,s,s,s,s,s,s,m
+t,s,s,s,s,c,c,c,c,c,c,s,s,s,s,m
+t,s,s,s,s,c,c,c,c,c,c,s,s,s,s,m
+door,s,s,s,s,c,c,c,c,c,c,s,s,s,s,m
+t,s,s,s,s,c,c,c,c,c,c,s,s,s,s,m
+t,s,s,s,s,c,c,c,c,c,c,s,s,s,s,m
+t,s,s,s,s,c,c,c,c,c,c,s,s,s,s,m
+t,s,s,s,s,s,s,s,s,s,s,s,s,s,s,m
+t,s,s,s,s,s,s,s,s,s,s,s,s,s,s,m
+t,s,s,s,s,s,s,s,s,s,s,s,s,s,s,m
+t,s,s,s,s,s,s,s,s,s,s,s,s,s,s,m
+m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m
+NAME Japan - Hot Springs
+PAL 1
+WAL w,t,m,r
+ITM 2 3,12
+EXT 7,0 3 14,14 FX fade_w
+EXT 0,7 2 14,7 FX fade_w
+EXT 14,2 21 7,14 FX fade_b
+
+ROOM 21
+w,w,w,w,w,w,w,door,w,w,w,w,w,w,w,w
+w,w,w,w,w,w,w,f,w,w,w,w,w,w,w,w
+w,w,w,w,w,w,w,f,w,w,w,w,w,w,w,w
+w,w,w,w,w,w,w,f,w,w,w,w,w,w,w,w
+w,w,w,w,w,w,w,f,w,w,w,w,w,w,w,w
+w,w,w,w,w,w,w,f,w,w,w,w,w,w,w,w
+w,w,w,w,w,w,w,f,w,w,w,w,w,w,w,w
+w,w,w,w,w,w,w,f,w,w,w,w,w,w,w,w
+w,w,w,w,w,w,w,f,w,w,w,w,w,w,w,w
+w,w,w,w,w,w,w,f,w,w,w,w,w,w,w,w
+w,w,w,w,w,w,w,f,w,w,w,w,w,w,w,w
+w,w,w,w,w,w,w,f,w,w,w,w,w,w,w,w
+w,w,w,w,w,w,w,f,w,w,w,w,w,w,w,w
+w,w,w,w,w,w,w,f,w,w,w,w,w,w,w,w
+w,w,w,w,w,w,w,f,w,w,w,w,w,w,w,w
+w,w,w,w,w,w,w,door,w,w,w,w,w,w,w,w
+NAME Japan - Fox Den
+PAL 1
+WAL w,t,m,r
+ITM 3 7,4
+EXT 7,0 3 2,14 FX fade_w
+EXT 7,15 20 14,3 FX fade_w
+
+ROOM 3
+w,w,w,w,w,w,w,door,w,w,w,w,w,w,w,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,w,f,f,f,f,f,w,f,f,f,f,f,w
+w,f,f,w,f,f,f,f,f,w,f,f,f,f,f,w
+w,f,f,w,f,f,f,f,f,w,f,f,w,f,f,w
+w,f,f,w,f,f,w,f,f,w,f,f,w,f,f,w
+w,f,f,w,f,f,w,f,f,w,f,f,w,f,f,w
+w,f,f,w,f,f,w,f,f,w,f,f,w,f,f,w
+w,f,f,w,f,f,w,f,f,w,f,f,w,f,f,w
+w,f,f,w,f,f,w,f,f,w,f,f,w,f,f,w
+w,f,f,w,f,f,w,f,f,w,f,f,w,f,f,w
+w,f,f,f,f,f,w,f,f,f,f,f,w,f,f,w
+w,f,f,f,f,f,w,f,f,f,f,f,w,f,f,w
+w,f,f,f,f,f,w,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,w,door,w,w,w,w,door,w,w,w,w,w,w,door,w
+NAME Japan - Shrine Maze
+PAL 1
+WAL w,t,m,r
+ITM 0 4,11
+EXT 7,0 4 7,14 FX fade_w DLG 12
+
+ROOM 4
+t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t
+t,g,s,g,g,s,g,g,s,g,g,s,g,g,s,t
+t,s,g,g,s,g,g,s,g,g,s,g,g,s,g,t
+t,g,g,s,g,g,s,g,g,s,g,g,s,g,g,t
+t,g,s,g,g,s,g,g,s,g,g,s,g,g,s,t
+t,s,g,g,s,g,g,s,g,g,s,g,g,s,g,t
+t,g,g,s,g,g,s,g,g,s,g,g,s,g,g,t
+t,g,s,g,g,s,g,g,s,g,g,s,g,g,s,t
+t,s,g,g,s,g,g,s,g,g,s,g,g,s,g,t
+t,g,g,s,g,g,s,g,g,s,g,g,s,g,g,t
+t,g,s,g,g,s,g,g,s,g,g,s,g,g,s,t
+t,s,g,g,s,g,g,s,g,g,s,g,g,s,g,t
+t,g,g,s,g,g,s,g,g,s,g,g,s,g,g,t
+t,g,s,g,g,s,g,g,s,g,g,s,g,g,s,t
+t,s,g,g,s,g,g,s,g,g,s,g,g,s,g,t
+t,t,t,t,t,t,t,door,t,t,t,t,t,t,t,t
+NAME Japan - Zen Garden
+PAL 1
+WAL w,t,m,r
+ITM 1 7,7
+EXT 7,6 0 7,12 FX fade_w DLG 19
+
+ROOM 5
+w,w,w,w,w,w,w,door,w,w,w,w,w,w,w,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+NAME Morocco - Entrance
+PAL 2
+WAL w,t,m,r
+EXT 7,0 6 7,14 FX fade_w
+
+ROOM 6
+w,w,w,w,w,w,w,door,w,w,w,w,w,w,w,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,s,f,f,f,f,f,f,f,f,s,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+door,f,f,f,f,f,f,f,f,f,f,f,f,f,f,door
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,s,f,f,f,f,f,f,f,f,s,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,w,w,w,w,w,w,door,w,w,w,w,w,w,w,w
+NAME Morocco - Market Square
+PAL 2
+WAL w,t,m,r
+EXT 7,0 17 7,14 FX fade_w
+EXT 7,15 5 7,1 FX fade_w
+EXT 0,7 13 14,7 FX fade_w
+EXT 15,7 7 1,7 FX fade_w
+
+ROOM 13
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,s,f,f,f,s,f,f,f,s,f,f,w
+w,f,f,f,s,f,f,f,s,f,f,f,s,f,f,w
+w,f,f,f,s,f,f,f,s,f,f,f,s,f,f,w
+w,f,f,f,s,f,f,f,s,f,f,f,s,f,f,w
+w,f,f,f,s,f,f,f,s,f,f,f,s,f,f,door
+w,f,f,f,s,f,f,f,s,f,f,f,s,f,f,w
+w,f,f,f,s,f,f,f,s,f,f,f,s,f,f,w
+w,f,f,f,s,f,f,f,s,f,f,f,s,f,f,w
+w,f,f,f,s,f,f,f,s,f,f,f,s,f,f,w
+w,f,f,f,s,f,f,f,s,f,f,f,s,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+NAME Morocco - The Souk
+PAL 2
+WAL w,t,m,r
+EXT 15,7 6 1,7 FX fade_w
+
+ROOM 7
+w,w,w,w,w,w,w,door,w,w,w,w,w,w,w,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,c,c,c,c,f,f,f,f,f,w
+door,f,f,f,f,f,c,c,c,c,f,f,f,f,f,w
+w,f,f,f,f,f,c,c,c,c,f,f,f,f,f,w
+w,f,f,f,f,f,c,c,c,c,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+NAME Morocco - The Courtyard
+PAL 2
+WAL w,t,m,r
+EXT 0,7 6 14,7 FX fade_w
+EXT 7,0 8 7,14 FX fade_w
+
+ROOM 8
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,r,f,f,f,r,f,f,f,r,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,r,f,f,f,r,f,f,f,r,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,r,f,f,f,r,f,f,f,r,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,w,w,w,w,w,w,door,w,w,w,w,w,w,w,w
+NAME Morocco - Rooftop
+PAL 2
+WAL w,t,m,r
+ITM 4 7,7
+EXT 7,13 7 7,1 FX fade_w
+EXT 7,5 0 7,12 FX fade_w DLG 34
+
+ROOM 17
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,w,w,w,w,w,w,door,w,w,w,w,w,w,w,w
+NAME Morocco - Quiet Alley
+PAL 2
+WAL w,t,m,r
+EXT 7,15 6 7,1 FX fade_w
+
+ROOM 9
+w,w,w,w,w,w,w,door,w,w,w,w,w,w,w,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+NAME Peru - Entrance
+PAL 3
+WAL w,t,m,r
+EXT 7,0 10 7,14 FX fade_w
+
+ROOM 10
+w,w,w,w,w,w,w,door,w,w,w,w,w,w,w,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,c,c,c,c,f,f,f,f,f,w
+w,f,f,f,f,f,c,c,c,c,f,f,f,f,f,w
+w,f,f,f,f,f,c,c,c,c,f,f,f,f,f,w
+w,f,f,f,f,f,c,c,c,c,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+NAME Peru - Plaza
+PAL 3
+WAL w,t,m,r
+EXT 7,0 11 7,14 FX fade_w
+
+ROOM 11
+t,t,t,t,t,t,t,door,t,t,t,t,t,t,t,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t
+NAME Peru - Mountain Path
+PAL 3
+WAL w,t,m,r
+EXT 7,0 12 7,14 FX fade_w
+
+ROOM 12
+t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t
+t,g,g,g,g,g,g,g,g,g,g,g,g,g,g,t
+t,g,g,g,g,g,g,g,g,g,g,g,g,g,g,t
+t,g,g,g,g,g,g,g,g,g,g,g,g,g,g,t
+t,g,g,g,g,g,g,g,g,g,g,g,g,g,g,t
+t,g,g,g,g,g,g,g,g,g,g,g,g,g,g,t
+t,g,g,g,g,g,g,g,g,g,g,g,g,g,g,t
+t,g,g,g,g,g,g,g,g,g,g,g,g,g,g,t
+t,g,g,g,g,g,g,g,g,g,g,g,g,g,g,t
+t,g,g,g,g,g,g,g,g,g,g,g,g,g,g,t
+t,m,m,m,m,m,m,g,m,m,m,m,m,m,m,t
+t,m,m,m,m,m,m,g,m,m,m,m,m,m,m,t
+t,m,m,m,m,m,m,g,m,m,m,m,m,m,m,t
+t,m,m,m,m,m,m,g,m,m,m,m,m,m,m,t
+t,m,m,m,m,m,m,g,m,m,m,m,m,m,m,t
+t,t,t,t,t,t,t,door,t,t,t,t,t,t,t,t
+NAME Peru - Forest View
+PAL 3
+WAL w,t,m,r
+ITM 5 7,7
+EXT 7,6 0 7,12 FX fade_w DLG 49
+
+TIL w
+11111111
+10000001
+10000001
+10000001
+10000001
+10000001
+10000001
+11111111
+NAME wall
+
+TIL f
+00000000
+00000000
+00000000
+00010000
+00000000
+00000000
+00000000
+00000000
+NAME floor
+
+TIL g
+00000000
+01000100
+00000000
+00010000
+00000000
+01000100
+00000000
+00000000
+NAME grass
+
+TIL t
+00011000
+00111100
+01111110
+01111110
+00111100
+00011000
+00011000
+00011000
+NAME tree
+
+TIL s
+10101010
+01010101
+10101010
+01010101
+10101010
+01010101
+10101010
+01010101
+NAME path/snow
+
+TIL m
+00000000
+00011000
+00111100
+01111110
+11111111
+11111111
+11111111
+11111111
+NAME mountain
+
+TIL c
+11111111
+10000001
+10111101
+10100101
+10100101
+10111101
+10000001
+11111111
+NAME center/platform
+
+TIL r
+11111111
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+NAME rooftop
+
+SPR A
+00011000
+00111100
+00111100
+01111110
+01011010
+01111110
+00100100
+00100100
+NAME Tom
+POS 0 7,12
+
+SPR b
+00000000
+01111110
+01000010
+01011010
+01011010
+01000010
+01111110
+00000000
+NAME Passport
+DLG 0
+POS 0 7,7
+
+SPR c
+11111111
+10000001
+10111101
+10100101
+10100101
+10111101
+10000001
+11111111
+NAME Progress Board
+DLG 1
+POS 0 12,3
+
+SPR d
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Japan Guide
+DLG 2
+POS 0 7,2
+
+SPR e
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Morocco Guide
+DLG 3
+POS 0 2,7
+
+SPR f
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Peru Guide
+DLG 4
+POS 0 13,7
+
+SPR g
+00000000
+01111110
+01000010
+01011010
+01011010
+01000010
+01111110
+00000000
+NAME Passport
+DLG 0
+POS home_001 7,7
+
+SPR h
+11111111
+10000001
+10111101
+10100101
+10100101
+10111101
+10000001
+11111111
+NAME Progress Board
+DLG 1
+POS home_001 12,3
+
+SPR i
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Japan Guide
+DLG 2
+POS home_001 7,2
+
+SPR j
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Morocco Guide
+DLG 3
+POS home_001 2,7
+
+SPR k
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Peru Guide
+DLG 4
+POS home_001 13,7
+
+SPR l
+00000000
+01111110
+01000010
+01011010
+01011010
+01000010
+01111110
+00000000
+NAME Passport
+DLG 0
+POS home_010 7,7
+
+SPR m
+11111111
+10000001
+10111101
+10100101
+10100101
+10111101
+10000001
+11111111
+NAME Progress Board
+DLG 1
+POS home_010 12,3
+
+SPR n
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Japan Guide
+DLG 2
+POS home_010 7,2
+
+SPR o
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Morocco Guide
+DLG 3
+POS home_010 2,7
+
+SPR p
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Peru Guide
+DLG 4
+POS home_010 13,7
+
+SPR q
+00000000
+01111110
+01000010
+01011010
+01011010
+01000010
+01111110
+00000000
+NAME Passport
+DLG 0
+POS home_011 7,7
+
+SPR r
+11111111
+10000001
+10111101
+10100101
+10100101
+10111101
+10000001
+11111111
+NAME Progress Board
+DLG 1
+POS home_011 12,3
+
+SPR s
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Japan Guide
+DLG 2
+POS home_011 7,2
+
+SPR t
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Morocco Guide
+DLG 3
+POS home_011 2,7
+
+SPR u
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Peru Guide
+DLG 4
+POS home_011 13,7
+
+SPR v
+00000000
+01111110
+01000010
+01011010
+01011010
+01000010
+01111110
+00000000
+NAME Passport
+DLG 0
+POS home_100 7,7
+
+SPR w
+11111111
+10000001
+10111101
+10100101
+10100101
+10111101
+10000001
+11111111
+NAME Progress Board
+DLG 1
+POS home_100 12,3
+
+SPR x
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Japan Guide
+DLG 2
+POS home_100 7,2
+
+SPR y
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Morocco Guide
+DLG 3
+POS home_100 2,7
+
+SPR z
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Peru Guide
+DLG 4
+POS home_100 13,7
+
+SPR {
+00000000
+01111110
+01000010
+01011010
+01011010
+01000010
+01111110
+00000000
+NAME Passport
+DLG 0
+POS home_101 7,7
+
+SPR |
+11111111
+10000001
+10111101
+10100101
+10100101
+10111101
+10000001
+11111111
+NAME Progress Board
+DLG 1
+POS home_101 12,3
+
+SPR }
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Japan Guide
+DLG 2
+POS home_101 7,2
+
+SPR ~
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Morocco Guide
+DLG 3
+POS home_101 2,7
+
+SPR 
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Peru Guide
+DLG 4
+POS home_101 13,7
+
+SPR 
+00000000
+01111110
+01000010
+01011010
+01011010
+01000010
+01111110
+00000000
+NAME Passport
+DLG 0
+POS home_110 7,7
+
+SPR 
+11111111
+10000001
+10111101
+10100101
+10100101
+10111101
+10000001
+11111111
+NAME Progress Board
+DLG 1
+POS home_110 12,3
+
+SPR 
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Japan Guide
+DLG 2
+POS home_110 7,2
+
+SPR 
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Morocco Guide
+DLG 3
+POS home_110 2,7
+
+SPR 
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Peru Guide
+DLG 4
+POS home_110 13,7
+
+SPR 
+00000000
+01111110
+01000010
+01011010
+01011010
+01000010
+01111110
+00000000
+NAME Passport
+DLG 0
+POS home_111 7,7
+
+SPR 
+11111111
+10000001
+10111101
+10100101
+10100101
+10111101
+10000001
+11111111
+NAME Progress Board
+DLG 1
+POS home_111 12,3
+
+SPR 
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Japan Guide
+DLG 2
+POS home_111 7,2
+
+SPR 
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Morocco Guide
+DLG 3
+POS home_111 2,7
+
+SPR 
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Peru Guide
+DLG 4
+POS home_111 13,7
+
+SPR 
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Welcome Guide
+DLG 5
+POS 1 5,7
+
+SPR 
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 14
+POS 1 8,1
+
+SPR 
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Guide
+DLG 6
+POS 2 4,8
+
+SPR 
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 15
+POS 2 8,1
+
+SPR 
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 16
+POS 2 14,8
+
+SPR 
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Bather
+DLG 8
+POS 20 12,6
+
+SPR 
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 15
+POS 20 8,1
+
+SPR 
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 17
+POS 21 8,1
+
+SPR 
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+01011010
+NAME Monk
+DLG 11
+POS 3 11,8
+
+SPR 
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 14
+POS 3 8,1
+
+SPR 
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Visitor
+DLG 13
+POS 4 5,8
+
+SPR ¢
+00000000
+11000000
+11110000
+00111100
+00001111
+00000011
+11111111
+11111111
+NAME Exit Stairs
+POS 4 6,6
+
+SPR £
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Welcome Guide
+DLG 22
+POS 5 5,7
+
+SPR ¤
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 14
+POS 5 8,1
+
+SPR ¥
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Vendor
+DLG 23
+POS 6 7,7
+
+SPR ¨
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 35
+POS 6 8,1
+
+SPR ©
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 36
+POS 6 8,14
+
+SPR ª
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 37
+POS 6 1,8
+
+SPR «
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 38
+POS 6 14,8
+
+SPR ¬
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Spice Vendor
+DLG 29
+POS 13 2,2
+
+SPR ®
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 39
+POS 13 14,8
+
+SPR ¯
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Weaver
+DLG 30
+POS 7 12,4
+
+SPR ±
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 39
+POS 7 1,8
+
+SPR ²
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 40
+POS 7 8,1
+
+SPR ³
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Observer
+DLG 31
+POS 8 12,12
+
+SPR ´
+00000000
+11000000
+11110000
+00111100
+00001111
+00000011
+11111111
+11111111
+NAME Exit Stairs
+POS 8 7,5
+
+SPR ¶
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 39
+POS 17 8,14
+
+SPR ·
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Welcome Guide
+DLG 41
+POS 9 5,7
+
+SPR ¸
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 14
+POS 9 8,1
+
+SPR ¹
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Vendor
+DLG 42
+POS 10 3,7
+
+SPR º
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Local
+DLG 43
+POS 10 12,5
+
+SPR »
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 14
+POS 10 8,1
+
+SPR ¼
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Elder
+DLG 44
+POS 11 10,10
+
+SPR ½
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Guide
+DLG 45
+POS 11 4,6
+
+SPR ¾
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 14
+POS 11 8,1
+
+SPR ¿
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Naturalist
+DLG 46
+POS 12 10,5
+
+SPR À
+00000000
+11000000
+11110000
+00111100
+00001111
+00000011
+11111111
+11111111
+NAME Exit Stairs
+POS 12 7,6
+
+ITM 0
+00011000
+00100100
+00100100
+00011000
+00011000
+00011000
+00111100
+00000000
+NAME Shrine Key
+
+ITM 1
+11111111
+10000001
+10100101
+10000001
+10100101
+10000001
+11111111
+00000000
+NAME Japan Ticket
+DLG 18
+
+ITM 2
+00011000
+00111100
+00111100
+00011000
+00111100
+00111100
+00111100
+00011000
+NAME Kokeshi Doll
+DLG 20
+
+ITM 3
+00011000
+00111100
+00100100
+00111100
+00111100
+00111100
+00111100
+00000000
+NAME Omamori
+DLG 21
+
+ITM 4
+11111111
+10000001
+10100101
+10000001
+10100101
+10000001
+11111111
+00000000
+NAME Morocco Ticket
+DLG 33
+
+ITM 5
+11111111
+10000001
+10100101
+10000001
+10100101
+10000001
+11111111
+00000000
+NAME Peru Ticket
+DLG 48
+
+DLG 0
+This is your passport. Collect tickets from all destinations to complete your journey.
+NAME passport_dialog
+
+DLG 1
+Progress:
+Japan: {japan_done == 1 ? Complete : Not started}
+Morocco: {morocco_done == 1 ? Complete : Not started}
+Peru: {peru_done == 1 ? Complete : Not started}
+{japan_done == 1 && morocco_done == 1 && peru_done == 1 ? All destinations complete! You are a world traveler! : Keep traveling!}
+NAME progress_dialog
+
+DLG 2
+{japan_done == 1 ? You have completed your journey to Japan. The path is now closed. : North: Japan. A land of snow and shrines.}
+NAME japan_guide_dialog
+
+DLG 3
+{morocco_done == 1 ? You have explored the markets of Morocco. The path is now closed. : West: Morocco. Markets and deserts.}
+NAME morocco_guide_dialog
+
+DLG 4
+{peru_done == 1 ? You have seen the ruins of Peru. The path is now closed. : East: Peru. Mountains and forests.}
+NAME peru_guide_dialog
+
+DLG 5
+Welcome to Japan! The spirits are active today.
+NAME japan_entrance_welcome
+
+DLG 6
+The path splits here. North to the Shrine, East to the Hot Springs.
+NAME japan_fork_dialog
+
+DLG 7
+The stone fox watches you silently.
+NAME fox_statue_dialog
+
+DLG 8
+Nothing beats a hot soak after a long hike.
+NAME japan_onsen_dialog
+
+DLG 9
+There is a strange breeze coming from behind this statue... (Walk into it)
+NAME secret_entrance_dialog
+
+DLG 10
+FACT: In Japanese folklore, Kitsune (foxes) are intelligent beings and possess paranormal abilities.
+NAME japan_fact_kitsune
+
+DLG 11
+The shrine is a place of contemplation. Find your way through the maze.
+NAME maze_monk_dialog
+
+DLG 12
+You have found your way through the maze.
+NAME shrine_exit_dialog
+
+DLG 13
+This garden is so peaceful.
+NAME japan_visitor_dialog
+
+DLG 14
+Go forward
+NAME exit_forward
+
+DLG 15
+To the Shrine
+NAME exit_shrine
+
+DLG 16
+To Hot Springs
+NAME exit_hot_springs
+
+DLG 17
+Exit Secret Room
+NAME exit_secret
+
+DLG 18
+You got the Japan Ticket!{japan_done = 1}
+NAME japan_ticket_dialog
+
+DLG 19
+{japan_done == 1 ? : I shouldn't leave without the ticket.}
+NAME japan_exit_check
+
+DLG 20
+You found a Kokeshi Doll! A traditional wooden doll.
+NAME kokeshi_dialog
+
+DLG 21
+You found an Omamori! A lucky amulet.
+NAME omamori_dialog
+
+DLG 22
+Welcome to Morocco! The market square is just ahead.
+NAME morocco_entrance_welcome
+
+DLG 23
+Spices, rugs, lamps! We have it all!
+NAME vendor_dialog
+
+DLG 24
+Meow.
+NAME cat_dialog
+
+DLG 25
+It's a clay pot.
+NAME pot_dialog
+
+DLG 26
+Nothing inside.
+NAME empty_pot_dialog
+
+DLG 27
+Chirp chirp!
+NAME bird_dialog
+
+DLG 28
+Zzz...
+NAME sleeping_cat_dialog
+
+DLG 29
+Saffron, cumin, turmeric... the scents of the earth.
+NAME morocco_spice_vendor_dialog
+
+DLG 30
+Feel the quality of this silk.
+NAME morocco_textiles_dialog
+
+DLG 31
+The view from here is magnificent.
+NAME morocco_sunset_dialog
+
+DLG 32
+Safe journey home!
+NAME morocco_rooftop_exit_dialog
+
+DLG 33
+You got the Morocco Ticket!{morocco_done = 1}
+NAME morocco_ticket_dialog
+
+DLG 34
+{morocco_done == 1 ? : I shouldn't leave without the ticket.}
+NAME morocco_exit_check
+
+DLG 35
+To the Alley
+NAME exit_alley
+
+DLG 36
+To the Entrance
+NAME exit_entrance
+
+DLG 37
+To the Souk
+NAME exit_souk
+
+DLG 38
+To the Courtyard
+NAME exit_courtyard
+
+DLG 39
+Back to Market
+NAME exit_market
+
+DLG 40
+To the Rooftop
+NAME exit_rooftop
+
+DLG 41
+Welcome to Peru! The mountains await.
+NAME peru_entrance_welcome
+
+DLG 42
+Fresh flowers from the valley!
+NAME flower_vendor_dialog
+
+DLG 43
+We honor the earth here.
+NAME peru_culture_dialog
+
+DLG 44
+Listen to the wind, it tells stories.
+NAME peru_traditions_dialog
+
+DLG 45
+This path was walked by the Incas.
+NAME peru_history_dialog
+
+DLG 46
+Look closely, you might see a condor.
+NAME peru_wildlife_dialog
+
+DLG 47
+Safe travels back home!
+NAME peru_exit_dialog
+
+DLG 48
+You got the Peru Ticket!{peru_done = 1}
+NAME peru_ticket_dialog
+
+DLG 49
+{peru_done == 1 ? : I shouldn't leave without the ticket.}
+NAME peru_exit_check
+
+VAR japan_done
+0
+
+VAR morocco_done
+0
+
+VAR peru_done
+0
