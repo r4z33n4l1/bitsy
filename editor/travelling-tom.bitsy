@@ -1,0 +1,1125 @@
+Travelling Tom
+
+# BITSY VERSION 8.12
+
+! VER_MAJ 8
+! VER_MIN 12
+! ROOM_FORMAT 1
+! DLG_COMPAT 0
+! TXT_MODE 0
+
+PAL 0
+60,60,80
+120,120,140
+180,180,200
+NAME home
+
+PAL 1
+100,150,200
+200,220,255
+50,100,150
+NAME plane
+
+PAL 2
+180,200,220
+255,255,255
+120,160,200
+NAME japan
+
+PAL 3
+180,140,90
+255,220,170
+140,90,40
+NAME morocco
+
+PAL 4
+80,140,100
+140,200,160
+40,90,60
+NAME peru
+
+ROOM 0
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+NAME Home
+PAL 0
+EXT 7,0 1 7,14 FX fade_w
+EXT 0,7 5 14,7 FX fade_w
+EXT 15,7 9 1,7 FX fade_w
+
+ROOM 1
+t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t
+NAME Japan - Entrance
+PAL 2
+EXT 7,0 2 7,14 FX fade_w
+
+ROOM 2
+t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,w,w,w,w,w,s,s,s,s,w,w,w,w,w,t
+t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t
+NAME Japan - Snowy Path
+PAL 2
+EXT 7,0 3 7,14 FX fade_w
+
+ROOM 3
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,a,a,a,a,a,a,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+NAME Japan - Shrine
+PAL 2
+EXT 7,0 4 7,14 FX fade_w
+
+ROOM 4
+t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t
+t,g,s,g,g,s,g,g,s,g,g,s,g,g,s,t
+t,s,g,g,s,g,g,s,g,g,s,g,g,s,g,t
+t,g,g,s,g,g,s,g,g,s,g,g,s,g,g,t
+t,g,s,g,g,s,g,g,s,g,g,s,g,g,s,t
+t,s,g,g,s,g,g,s,g,g,s,g,g,s,g,t
+t,g,g,s,g,g,s,g,g,s,g,g,s,g,g,t
+t,g,s,g,g,s,g,g,s,g,g,s,g,g,s,t
+t,s,g,g,s,g,g,s,g,g,s,g,g,s,g,t
+t,g,g,s,g,g,s,g,g,s,g,g,s,g,g,t
+t,g,s,g,g,s,g,g,s,g,g,s,g,g,s,t
+t,s,g,g,s,g,g,s,g,g,s,g,g,s,g,t
+t,g,g,s,g,g,s,g,g,s,g,g,s,g,g,t
+t,g,s,g,g,s,g,g,s,g,g,s,g,g,s,t
+t,s,g,g,s,g,g,s,g,g,s,g,g,s,g,t
+t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t
+NAME Japan - Zen Garden
+PAL 2
+
+ROOM 5
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+NAME Morocco - Entrance
+PAL 3
+EXT 7,0 6 7,14 FX fade_w
+
+ROOM 6
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,s,f,f,s,f,f,s,f,f,s,f,f,w
+w,f,f,s,f,f,s,f,f,s,f,f,s,f,f,w
+w,f,f,s,f,f,s,f,f,s,f,f,s,f,f,w
+w,f,f,s,f,f,s,f,f,s,f,f,s,f,f,w
+w,f,f,s,f,f,s,f,f,s,f,f,s,f,f,w
+w,f,f,s,f,f,s,f,f,s,f,f,s,f,f,w
+w,f,f,s,f,f,s,f,f,s,f,f,s,f,f,w
+w,f,f,s,f,f,s,f,f,s,f,f,s,f,f,w
+w,f,f,s,f,f,s,f,f,s,f,f,s,f,f,w
+w,f,f,s,f,f,s,f,f,s,f,f,s,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+NAME Morocco - Market
+PAL 3
+EXT 7,0 7 7,14 FX fade_w
+
+ROOM 7
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,c,c,c,c,f,f,f,f,f,w
+w,f,f,f,f,f,c,c,c,c,f,f,f,f,f,w
+w,f,f,f,f,f,c,c,c,c,f,f,f,f,f,w
+w,f,f,f,f,f,c,c,c,c,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+NAME Morocco - Courtyard
+PAL 3
+EXT 7,0 8 7,14 FX fade_w
+
+ROOM 8
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+w,r,r,r,r,r,r,r,r,r,r,r,r,r,r,w
+w,r,r,r,r,r,r,r,r,r,r,r,r,r,r,w
+w,r,r,r,r,r,r,r,r,r,r,r,r,r,r,w
+w,r,r,r,r,r,r,r,r,r,r,r,r,r,r,w
+w,r,r,r,r,r,r,r,r,r,r,r,r,r,r,w
+w,r,r,r,r,r,r,r,r,r,r,r,r,r,r,w
+w,r,r,r,r,r,r,r,r,r,r,r,r,r,r,w
+w,r,r,r,r,r,r,r,r,r,r,r,r,r,r,w
+w,r,r,r,r,r,r,r,r,r,r,r,r,r,r,w
+w,r,r,r,r,r,r,r,r,r,r,r,r,r,r,w
+w,r,r,r,r,r,r,r,r,r,r,r,r,r,r,w
+w,r,r,r,r,r,r,r,r,r,r,r,r,r,r,w
+w,r,r,r,r,r,r,r,r,r,r,r,r,r,r,w
+w,r,r,r,r,r,r,r,r,r,r,r,r,r,r,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+NAME Morocco - Rooftop
+PAL 3
+
+ROOM 9
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+NAME Peru - Entrance
+PAL 4
+EXT 7,0 10 7,14 FX fade_w
+
+ROOM 10
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,c,c,c,c,f,f,f,f,f,w
+w,f,f,f,f,f,c,c,c,c,f,f,f,f,f,w
+w,f,f,f,f,f,c,c,c,c,f,f,f,f,f,w
+w,f,f,f,f,f,c,c,c,c,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,f,f,f,f,f,f,f,f,f,f,f,f,f,f,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+NAME Peru - Plaza
+PAL 4
+EXT 7,0 11 7,14 FX fade_w
+
+ROOM 11
+t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,g,g,g,g,g,s,s,s,s,g,g,g,g,g,t
+t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t
+NAME Peru - Mountain Path
+PAL 4
+EXT 7,0 12 7,14 FX fade_w
+
+ROOM 12
+t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t
+t,g,g,g,g,g,g,g,g,g,g,g,g,g,g,t
+t,g,g,g,g,g,g,g,g,g,g,g,g,g,g,t
+t,g,g,g,g,g,g,g,g,g,g,g,g,g,g,t
+t,g,g,g,g,g,g,g,g,g,g,g,g,g,g,t
+t,g,g,g,g,g,g,g,g,g,g,g,g,g,g,t
+t,g,g,g,g,g,g,g,g,g,g,g,g,g,g,t
+t,g,g,g,g,g,g,g,g,g,g,g,g,g,g,t
+t,g,g,g,g,g,g,g,g,g,g,g,g,g,g,t
+t,g,g,g,g,g,g,g,g,g,g,g,g,g,g,t
+t,m,m,m,m,m,m,m,m,m,m,m,m,m,m,t
+t,m,m,m,m,m,m,m,m,m,m,m,m,m,m,t
+t,m,m,m,m,m,m,m,m,m,m,m,m,m,m,t
+t,m,m,m,m,m,m,m,m,m,m,m,m,m,m,t
+t,m,m,m,m,m,m,m,m,m,m,m,m,m,m,t
+t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t
+NAME Peru - Forest View
+PAL 4
+
+TIL 0
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME empty
+
+TIL w
+11111111
+10000001
+10111101
+10100101
+10100101
+10111101
+10000001
+11111111
+NAME wall
+
+TIL f
+00000000
+01001001
+00000000
+00100100
+00000000
+01001001
+00000000
+00100100
+NAME floor
+
+TIL t
+00011000
+00111100
+01111110
+11011011
+11111111
+01111110
+00100100
+00000000
+NAME tree
+
+TIL s
+00111100
+01111110
+11011011
+11111111
+11011011
+01111110
+00111100
+00000000
+NAME sky
+
+TIL a
+11111111
+10000001
+10111101
+10100101
+10100101
+10111101
+10000001
+11111111
+NAME altar
+
+TIL r
+00000000
+01100110
+01100110
+00000000
+00000000
+01100110
+01100110
+00000000
+NAME rooftop
+
+TIL c
+00111100
+01111110
+11000011
+11011011
+11011011
+11000011
+01111110
+00111100
+NAME central
+
+TIL g
+00000000
+00100010
+00001000
+01000001
+00010100
+00100010
+01001000
+00000000
+NAME grass
+
+TIL m
+00011000
+00111100
+01111110
+11111111
+11111111
+01111110
+00111100
+00011000
+NAME mountain
+
+TIL d
+00111100
+01000010
+10111101
+10100101
+10100101
+10111101
+01000010
+00111100
+NAME door
+
+TIL e
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME exit_marker
+
+SPR A
+00000000
+00111100
+00111100
+01111110
+01011010
+01111110
+00100100
+00100100
+NAME Tom
+POS 0 7,12
+
+SPR b
+00000000
+01111110
+01000010
+01011010
+01011010
+01000010
+01111110
+00000000
+NAME Passport
+DLG 0
+POS 0 7,7
+
+SPR c
+11111111
+10000001
+10111101
+10100101
+10100101
+10111101
+10000001
+11111111
+NAME Progress Board
+DLG 1
+POS 0 12,3
+
+SPR d
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Japan Guide
+DLG 2
+POS 0 7,2
+
+SPR e
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Morocco Guide
+DLG 3
+POS 0 2,7
+
+SPR f
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Peru Guide
+DLG 4
+POS 0 13,7
+
+SPR g
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Welcome Guide
+DLG 6
+POS 1 5,7
+
+SPR h
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 5
+POS 1 7,1
+
+SPR i
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Traveler
+DLG 23
+POS 2 3,7
+
+SPR j
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Snow Guide
+DLG 17
+POS 2 12,5
+
+SPR k
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 5
+POS 2 7,1
+
+SPR l
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Monk
+DLG 7
+POS 3 7,6
+
+SPR m
+00000000
+01111110
+01000010
+01011010
+01011010
+01000010
+01111110
+00000000
+NAME Verse Plaque
+DLG 8
+POS 3 5,4
+
+SPR n
+00000000
+01111110
+01000010
+01011010
+01011010
+01000010
+01111110
+00000000
+NAME Verse Plaque
+DLG 9
+POS 3 10,4
+
+SPR o
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Local
+DLG 24
+POS 3 3,10
+
+SPR p
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 5
+POS 3 7,1
+
+SPR q
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Visitor
+DLG 18
+POS 4 5,8
+
+SPR r
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Caretaker
+DLG 10
+POS 4 7,7
+
+SPR s
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Welcome Guide
+DLG 11
+POS 5 5,7
+
+SPR t
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 5
+POS 5 7,1
+
+SPR u
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Vendor
+DLG 12
+POS 6 3,7
+
+SPR v
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Merchant
+DLG 25
+POS 6 6,5
+
+SPR w
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Cook
+DLG 26
+POS 6 9,10
+
+SPR x
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 5
+POS 6 7,1
+
+SPR y
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Weaver
+DLG 19
+POS 7 12,8
+
+SPR z
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Local
+DLG 27
+POS 7 4,5
+
+SPR {
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 5
+POS 7 7,1
+
+SPR |
+00011000
+00111100
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Guide
+DLG 13
+POS 8 7,7
+
+SPR }
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Observer
+DLG 20
+POS 8 11,6
+
+SPR ~
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Welcome Guide
+DLG 14
+POS 9 5,7
+
+SPR 
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 5
+POS 9 7,1
+
+SPR 
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Vendor
+DLG 15
+POS 10 3,7
+
+SPR 
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Local
+DLG 28
+POS 10 12,5
+
+SPR 
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 5
+POS 10 7,1
+
+SPR 
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Elder
+DLG 21
+POS 11 10,10
+
+SPR 
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Guide
+DLG 29
+POS 11 4,6
+
+SPR 
+00011000
+00111100
+01100110
+11011011
+11011011
+01100110
+00111100
+00011000
+NAME Exit Marker
+DLG 5
+POS 11 7,1
+
+SPR 
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Caretaker
+DLG 16
+POS 12 7,7
+
+SPR 
+00111100
+01111110
+01011010
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME Naturalist
+DLG 22
+POS 12 10,5
+
+ITM 0
+00000000
+00011000
+00111100
+01100110
+01100110
+00111100
+00011000
+00000000
+NAME Snow Charm
+
+ITM 1
+00000000
+00011000
+00111100
+01100110
+01111110
+00111100
+00011000
+00000000
+NAME Brass Lantern
+
+ITM 2
+00000000
+01011010
+00100100
+01011010
+00100100
+01011010
+00100100
+00000000
+NAME Woven Cloth
+
+ITM 3
+00000000
+00011000
+00111100
+01100110
+00111100
+00011000
+00011000
+00000000
+NAME Flower
+
+DLG 0
+Welcome home, Tom!{wvy}Your passport is ready.{wvy}Talk to the guides near each door to learn about destinations.
+NAME passport dialog
+
+DLG 1
+Progress Board:{wvy}Japan: {japan_ticket == 1 ? ✓ Visited : Ready}{wvy}Morocco: {morocco_ticket == 1 ? ✓ Visited : Ready}{wvy}Peru: {peru_ticket == 1 ? ✓ Visited : Ready}{wvy}{all_done == 1 ? All destinations explored! : Keep exploring!}
+NAME progress dialog
+
+DLG 2
+This door leads to Japan!{wvy}Visit snowy shrines and zen gardens.{wvy}Step through to begin your journey.
+NAME japan guide
+
+DLG 3
+This door leads to Morocco!{wvy}Explore vibrant markets and rooftop views.{wvy}Step through to begin your journey.
+NAME morocco guide
+
+DLG 4
+This door leads to Peru!{wvy}Discover mountain paths and lush forests.{wvy}Step through to begin your journey.
+NAME peru guide
+
+DLG 5
+↑ Continue forward
+NAME exit forward
+
+DLG 6
+Welcome to Japan!{wvy}Follow the path north to explore the shrines and gardens.{wvy}Collect your ticket at the final location!
+NAME japan entrance welcome
+
+DLG 7
+Welcome to our shrine.{wvy}Read the verses in order to complete the haiku.{wvy}When you're done, I'll stamp your passport.
+NAME monk dialog
+
+DLG 8
+First verse of the haiku...
+NAME verse 1
+
+DLG 9
+Second verse of the haiku...{wvy}The monk nods approvingly.
+NAME verse 2
+
+DLG 10
+{japan_ticket == 0 ? You've reached the zen garden!{wvy}Here is your return ticket.{wvy}You'll be back home shortly.{japan_ticket = 1}{EXIT 0,7,12} : Welcome back to the garden!}
+NAME japan ticket giver
+
+DLG 11
+Welcome to Morocco!{wvy}Follow the path to explore markets and rooftops.{wvy}Collect your ticket at the final location!
+NAME morocco entrance welcome
+
+DLG 12
+Welcome to the market!{wvy}Browse our spices and crafts.{wvy}The rooftops above offer beautiful views!
+NAME vendor dialog
+
+DLG 13
+{morocco_ticket == 0 ? You've reached the rooftop!{wvy}What a beautiful view of Marrakesh.{wvy}Here is your return ticket.{morocco_ticket = 1}{EXIT 0,7,12} : Welcome back to the rooftop!}
+NAME morocco ticket giver
+
+DLG 14
+Welcome to Peru!{wvy}Follow the path through plazas and forests.{wvy}Collect your ticket at the final location!
+NAME peru entrance welcome
+
+DLG 15
+Would you like a flower?{wvy}Take this beautiful bloom!{wvy}The mountain paths ahead are stunning!
+NAME flower vendor
+
+DLG 16
+{peru_ticket == 0 ? You've reached the forest view!{wvy}The mountains of Peru are magnificent.{wvy}Here is your return ticket.{peru_ticket = 1}{EXIT 0,7,12} : Welcome back to the forest!}
+NAME peru ticket giver
+
+DLG 17
+The path ahead leads to an ancient shrine.{wvy}In winter, the snow makes everything quiet and peaceful.{wvy}Take your time and enjoy the journey.
+NAME japan snow guide
+
+DLG 18
+I come here every week to find peace.{wvy}Reading haiku helps me slow down.{wvy}Each poem is like a small meditation.
+NAME japan visitor
+
+DLG 19
+Our textiles tell stories!{wvy}Each pattern has meaning passed down through generations.{wvy}The colors come from natural dyes.{wvy}Red for strength, blue for protection.
+NAME morocco textiles
+
+DLG 20
+This is the best spot to watch the sunset!{wvy}Every evening, the sky turns golden.{wvy}People gather here to share tea and stories.{wvy}It's our favorite time of day.
+NAME morocco sunset
+
+DLG 21
+Our traditions connect us to the mountains.{wvy}We honor Pachamama, Mother Earth.{wvy}Flowers are sacred offerings.{wvy}They show respect for nature's gifts.
+NAME peru traditions
+
+DLG 22
+The forest is full of life!{wvy}You might see hummingbirds, llamas, or condors.{wvy}Each creature has its place in the mountains.{wvy}We protect them as our ancestors did.
+NAME peru wildlife
+
+DLG 23
+Welcome to Japan!{wvy}The snow here is peaceful.{wvy}Shrines are sacred places where we find inner calm.{wvy}Haiku poetry helps us appreciate simple moments.
+NAME japan traveler
+
+DLG 24
+In Japan, we value harmony and respect.{wvy}The shrine is a place of meditation.{wvy}Haiku poems have three lines: 5-7-5 syllables.{wvy}They capture nature's beauty in words.
+NAME japan culture
+
+DLG 25
+Welcome to Marrakesh!{wvy}Our markets are full of life and color.{wvy}You'll find spices, textiles, and crafts.{wvy}The rooftops offer beautiful views of the city.
+NAME morocco culture
+
+DLG 26
+Moroccan food is rich with spices!{wvy}We use cumin, cinnamon, and saffron.{wvy}Tagines are slow-cooked stews.{wvy}Mint tea is our traditional welcome drink.
+NAME morocco food
+
+DLG 27
+From here you can see the whole medina!{wvy}The old city walls stretch far.{wvy}At sunset, the rooftops glow orange.{wvy}It's a magical place to watch the day end.
+NAME morocco view
+
+DLG 28
+Welcome to Peru!{wvy}This plaza is the heart of our community.{wvy}Machu Picchu is an ancient Incan city.{wvy}It sits high in the mountains, hidden for centuries.
+NAME peru culture
+
+DLG 29
+The Incas built amazing terraces here.{wvy}They farmed on mountain slopes.{wvy}Machu Picchu was a sacred site.{wvy}Flowers were offerings to the mountains.
+NAME peru history
+
+VAR japan_ticket
+0
+
+VAR morocco_ticket
+0
+
+VAR peru_ticket
+0
+
+VAR all_done
+0
